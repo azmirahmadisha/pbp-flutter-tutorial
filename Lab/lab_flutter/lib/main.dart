@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lab_flutter/form.dart';
+import 'package:lab_flutter/page/form.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,8 +28,6 @@ class MyHomePage extends StatefulWidget {
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
-
-
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
